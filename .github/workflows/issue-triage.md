@@ -78,7 +78,9 @@ tools:
 
 timeout-minutes: 10
 source: githubnext/agentics/workflows/issue-triage.md@2f03fdaafb8c1ae62dfde7e0be762a822a201aeb
-engine: copilot
+engine:
+  id: copilot
+  model: claude-sonnet-5
 ---
 
 # Agentic Issue Triage
